@@ -1,0 +1,35 @@
+h1 {
+  color:  #9b59b6;
+}
+
+/* 모든 h1 태그 앞에 적용 */
+h1::before {
+  content: "Topic: ";
+}
+
+h1:first-child{
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-family: Verdana;
+  font-style: italic;
+}
+
+.sub-header {
+  color: #2980b9;
+}
+
+/* p태그의 첫번째 글자에만 적용 */
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+
+.challenge2 {
+  padding-left: 10%;
+  background:
+radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%)
+}
+

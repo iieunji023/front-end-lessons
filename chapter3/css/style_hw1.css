@@ -6,11 +6,11 @@
 }
 
 .green {
-  border: 50px solid green;
+  border-color: green;
   /* display:none; */
   visibility:hidden
 }
 
 .blue {
-  border: 50px solid blue;
+  border-color: blue;
 }
