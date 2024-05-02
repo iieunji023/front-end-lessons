@@ -68,3 +68,61 @@ div .new-style{
 
 }
 ```
+
+  <details>
+    <summary>코드_html</summary>
+    
+    ```
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link href="/chapter3/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <div class="red border-blue">BTS</div>
+      <img src="https://pbs.twimg.com/media/E_OPRLmVIAEXVPr.jpg" class="img-size"/>
+      <div class="border-blue img-size margin-space padding-space">BOX</div>
+    </body>
+    </html>
+    ```
+  </details>
+
+    <details>
+    <summary>코드_css</summary>
+    
+    ```
+    .red {
+      color: red;
+      background-color: yellow;
+      text-align: center;
+    }
+
+    .border-blue {
+      border: 1px solid blue;
+    }
+
+    .img-size {
+      width: 200px;
+      height: 200px;
+    }
+
+    .margin-space {
+      margin-top: 40px;
+      margin-left: 100px;
+    }
+
+    .padding-space {
+      padding-top: 40px;
+    }
+    ```
+  </details>
+
+  <details>
+    <summary>결과</summary>
+    
+    ![css](/img/css.png)
+    
+  </details>
