@@ -257,30 +257,11 @@ div .new-style{
   <details>
     <summary>결과</summary>
     
-  ![hw1](/img/hw1.png)
-    
-  </details>
-
-  > [display:none과 visibility:hidden의 차이](https://unabated.tistory.com/entry/displaynone-%EA%B3%BC-visibilityhidden-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
-  1. display:none  <-> block
-    * 아예 사라지게 하는 것. 보이지도 않고 해당 공간도 존재하지 않게 됨
-  <details>
-    <summary>display:none</summary>
-    
-  ![hw1](/img/display.png)
-    
-  </details>
-
-  2. visibility:hidden <-> visible
-    * 보이지만 않고 해당 공간은 존재. width와 height 값을 주었다면 그만큼 공간은 존재하게 됨
-  <details>
-    <summary>visibility:hidden</summary>
-    
   ![hw2](/img/hw2.png)
     
   </details>
 
   > 참고자료
-  * [<p> 태그 첫번째 글씨만 적용]( https://www.w3schools.com/cssref/sel_firstletter.asp)
-  * [모든 <h1>태그 전에 Topic: 붙이기](https://www.w3schools.com/cssref/sel_before.asp)
-  * [첫번째 <h1> 태그만 적용](https://www.w3schools.com/cssref/sel_firstchild.asp)
+  * [```<p>``` 태그 첫번째 글씨만 적용]( https://www.w3schools.com/cssref/sel_firstletter.asp)
+  * [모든 ```<h1>```태그 전에 Topic: 붙이기](https://www.w3schools.com/cssref/sel_before.asp)
+  * [첫번째 ```<h1>``` 태그만 적용](https://www.w3schools.com/cssref/sel_firstchild.asp)
