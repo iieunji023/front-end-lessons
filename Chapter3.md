@@ -90,7 +90,7 @@ div .new-style{
     ```
   </details>
 
-    <details>
+  <details>
     <summary>코드_css</summary>
     
     ```
@@ -123,6 +123,6 @@ div .new-style{
   <details>
     <summary>결과</summary>
     
-    ![css](/img/css.png)
+  ![css](/img/css.png)
     
   </details>
