@@ -72,7 +72,6 @@ div .new-style{
   <details>
     <summary>코드_html</summary>
     
-    ```
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -87,13 +86,11 @@ div .new-style{
       <div class="border-blue img-size margin-space padding-space">BOX</div>
     </body>
     </html>
-    ```
   </details>
 
   <details>
     <summary>코드_css</summary>
     
-    ```
     .red {
       color: red;
       background-color: yellow;
@@ -117,7 +114,6 @@ div .new-style{
     .padding-space {
       padding-top: 40px;
     }
-    ```
   </details>
 
   <details>
@@ -126,3 +122,73 @@ div .new-style{
   ![css](/img/css.png)
     
   </details>
+
+### chapter3: 과제1
+  <details>
+    <summary>코드_html</summary>
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link href="../css/style_hw1.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <div>  
+        <div class="box">Box 1</div> 
+        <div class="box green">Box 2</div>  
+        <div class="box blue">Box 3</div> 
+    </div>
+    </body>
+    </html>
+  </details>
+
+  <details>
+    <summary>코드_css</summary>
+    
+    .box {
+      border: 50px solid red;
+      width: 200px;
+      padding: 50px;
+      margin-bottom: 20px;
+    }
+
+    .green {
+      border: 50px solid green;
+      /* display:none; */
+      visibility:hidden
+    }
+
+    .blue {
+      border: 50px solid blue;
+    }
+  </details>
+
+  <details>
+    <summary>결과</summary>
+    
+  ![hw1](/img/hw1.png)
+    
+  </details>
+
+  > [display:none과 visibility:hidden의 차이](https://unabated.tistory.com/entry/displaynone-%EA%B3%BC-visibilityhidden-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+  * display:none  <-> block
+    * 아예 사라지게 하는 것. 보이지도 않고 해당 공간도 존재하지 않게 됨
+  <details>
+    <summary>display:none</summary>
+    
+  ![hw1](/img/display.png)
+    
+  </details>
+
+  * visibility:hidden <-> visible
+    * 보이지만 않고 해당 공간은 존재. width와 height 값을 주었다면 그만큼 공간은 존재하게 됨
+  <details>
+    <summary>visibility:hidden</summary>
+    
+  ![hw1](/img/visibility.png)
+    
+  </details>
+  
